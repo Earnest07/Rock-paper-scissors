@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&family=Poppins&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+    text-align: center;
+}
+
+body{
+    background-color:beige
+}
+
+#reset{
+    background-color: rgb(98, 228, 98);
+    display: inline;
+    color: #081b31;
+    padding-top: 1.2vmin;
+    padding-bottom: 1.2vmin;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px 0 #191913;
+    border: none;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+    right: 20px; 
+    cursor: pointer;
+}
+
+#reset:hover{
+    transform: scale(1.2);
+}
+
+#reset:active{
+    box-shadow: none;
+    background-color: red;
+    color: aliceblue;
+}
+h1{
+    background-color: #081b31;
+    color:aliceblue;
+    height: 5rem;
+    line-height: 5rem;
+    box-shadow: 0 8px 16px 0 #191913;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 8px 16px 0 #081b31;
+    background-color: aliceblue;
+    border-radius: 50%;
+    background-color:antiquewhite;
+}
+
+.choice:hover{
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #081b31;
+    /* padding: 1px; */
+}
+
+/* .choice:active{
+    display: none;
+} */
+img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.score{
+    box-shadow: 0 8px 16px 0 #081b31;
+    width: 100px;
+    background-color: aliceblue;
+}
+
+.msg-container{
+    margin-top: 3rem;
+}
+#msg{
+    background-color: rgb(98, 228, 98);
+    display: inline;
+    color: #081b31;
+    padding-top: 1.2vmin;
+    padding-bottom: 1.2vmin;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 8px 16px 0 #191913;
+    display: flex;
+    justify-content: center;
+
+}
